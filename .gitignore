@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+Debug/
+
+*.sln
+*.exe
