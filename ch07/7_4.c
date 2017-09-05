@@ -23,11 +23,11 @@ int main()
             str[index] = ch;
             index++;
         }
-        str[index]=ch;
+        str[index] = ch;
         index++;
     }
 
-    str[index]='\0';
+    str[index] = '\0';
     printf("%c\n", str);
     printf("Replace times: %d\n", count);
     return 1;

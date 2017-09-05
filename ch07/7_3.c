@@ -7,7 +7,7 @@ int main()
     int even_sum = 0, odd_sum = 0;
     float even_ave, odd_ave;
     int input_num;
-    bool if_exit = true;  // 控制是否退出
+    bool if_exit = true; // 控制是否退出
 
     puts("Enter an integer(Type 0 to quit):");
 

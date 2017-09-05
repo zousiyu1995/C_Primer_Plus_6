@@ -7,7 +7,7 @@ double get_salary(double hourly_rate);
 int main()
 {
     menu(); // 显示菜单
-    // 选择时薪
+
     int choice;
     double hourly_rate;
     scanf("%d", &choice); // 获取用户输入
@@ -62,7 +62,7 @@ double get_hourly_rate(int choice)
 // 获取薪水
 double get_salary(double hourly_rate) // 传入时薪
 {
-    if (hourly_rate == 0)  // 时薪=0说明选择了5) quit
+    if (hourly_rate == 0) // 时薪=0说明选择了5) quit
     {
         return 0;
     }

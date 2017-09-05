@@ -16,10 +16,10 @@ int main()
     {
         for (int i = 3; i <= num; i += 2) // 只找奇数
         {
-           if (isPrime(i))
-           {
-               printf("%d ", i);
-           }
+            if (isPrime(i))
+            {
+                printf("%d ", i);
+            }
         }
     }
 
