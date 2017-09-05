@@ -3,7 +3,7 @@
 
 int isPrime(int num);
 
-int main()
+int main(void)
 {
     int num;
     puts("Enter a int!");
